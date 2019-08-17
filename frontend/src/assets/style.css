@@ -1,0 +1,44 @@
+.onlyPC{
+    display: none;
+}
+@media screen and (max-width: 600px){
+    .onlyPC{
+        width:100vw;
+        height:100vh;
+        background:#333;
+        position:fixed;
+        top:0;left:0;
+        z-index:999;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .onlyPC h1,.onlyPC h3{
+        color:#fff;
+    }
+}
+
+.fade-enter-active, .fade-leave-active {
+transition: opacity 0.3s
+}
+
+.fade-enter, .fade-leave-active {
+opacity: 0
+}
+.flex-columns{
+    display: flex;
+    flex-direction: column;
+}
+.flex-rows{
+    display: flex;
+    flex-direction: row;
+}
+.similarword{
+    transition: 0.25s;
+    cursor: pointer;
+}
+.similarword:hover{
+    background: #fcf652;
+    color:#333;
+}
