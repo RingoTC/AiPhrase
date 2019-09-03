@@ -1,0 +1,44 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+{% if latest_question_list %}
+    <input id="i1" size="70"> Q1</input>
+    </br>
+    <input id="i2" size="70"> Q1</input>
+    </br>
+    <button id="b1">
+        <p onclick=myfun()>predict</p>
+    </button>
+    <div>
+        <h3>predicted result similarity:</h3>
+        <p id="p1"></p>
+    </div>
+
+
+
+</form>
+<script>
+
+
+    function myfun() {
+        var i1 = document.getElementById("i1")
+        var i2 = document.getElementById("i2")
+        console.log(i1.value);
+        console.log(i2.value);
+        $.ajax("predict/", { //向服务器发送请求请求得到所选词的embedding信息
+            data: {
+                "v1":i1.value,
+                "v2":i2.value,
+            },
+            contentType: 'application/json',
+            type: 'GET',
+            success: function(data) {
+                console.log(data)
+                $("#p1").text(data["result"]) ;//= data["result"];
+            }
+        });
+    }
+</script>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
