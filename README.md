@@ -6,6 +6,6 @@
 
 ### 我们的思路
 
-[海报](https://github.com/RingoTC/AiPhrase/blob/master/slides/poster.jpg?raw=true)
+![海报](https://github.com/RingoTC/AiPhrase/blob/master/slides/poster_small.jpg.jpg?raw=true)
 
 [PPT](https://github.com/RingoTC/AiPhrase/blob/master/slides/slide.pdf)
