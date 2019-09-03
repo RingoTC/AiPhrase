@@ -6,6 +6,6 @@
 
 ### 我们的思路
 
-#### [海报](https://github.com/RingoTC/AiPhrase/blob/master/slides/poster.jpg?raw=true) [PPT](https://github.com/RingoTC/AiPhrase/blob/master/slides/slide.pdf)
+[海报](https://github.com/RingoTC/AiPhrase/blob/master/slides/poster.jpg?raw=true)
 
-> 注：诸如bert预训练模型等文件，请自行下载。
+[PPT](https://github.com/RingoTC/AiPhrase/blob/master/slides/slide.pdf)
