@@ -4,8 +4,6 @@
 
 > In English learning, many Chinese students are used to using a single expression and vocabulary. To address this problem, paraphrase exercises can train students to expand their methods of expression through the use of different sentence patterns, substitution of vocabulary and expressions, and at the same time consciously accumulate language materials to improve their English expression skills. In offline teaching, teachers can accurately assess students' sentence rewriting level and give targeted feedback and suggestions. In online teaching, if the AI has a similar ability, it can significantly improve the efficiency of correction and reduce the burden of teachers, while providing more opportunities for students to practice. However, due to the complexity of language itself, how to allow AI to assess whether two sentences are semantically similar while at the same time evaluating the differences between these two sentences in terms of sentence structure, expression, and vocabulary choice is currently a major challenge. In this project, we hope to focus on the English sentence rewriting scenario, and comprehensively use neural networks and other deep learning methods to analyze students' rewriting exercises from different dimensions, such as semantics, grammar, vocabulary, and sentence patterns, to judge their similarity to the original sentence in terms of semantics and expression, and to give scores and feedbacks close to those of real teachers.
 
-Translated with www.DeepL.com/Translator (free version)
-
 ### 我们的思路
 
 ![海报](https://github.com/RingoTC/AiPhrase/blob/master/slides/poster_small.jpg?raw=true)
